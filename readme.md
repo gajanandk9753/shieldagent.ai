@@ -57,7 +57,7 @@ This monorepo contains the three core pillars of the ShieldAgent architecture:
 Follow these steps to observe autonomous agents negotiate, trigger firewalls, and get intercepted in real-time.
 
 ### Step 1: Install the Command Center App
-1. Download the pre-compiled APK directly: [Download ShieldAgent.ai.apk](https://github.com/gajanandk9753/shieldagent.ai/releases/download/Flutter-apk/Shieldagent.ai.apk)
+1. Download the pre-compiled APK directly: [Download ShieldAgent.ai.apk](https://github.com/gajanandk9753/shieldagent.ai/releases/download/ShieldAgent-apk/Shieldagent.ai.apk)
 2. Install the APK on your Android device (or execute `flutter run` inside `/flutter_app`).
 3. Open the app and register accounts or sign in:
    * **Buyer Agent:** `Meraz Infrastructure`

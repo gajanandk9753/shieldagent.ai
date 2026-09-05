@@ -3,7 +3,7 @@ const axios = require("axios");
 // Resgiter an email on the shieldagent mobile app and then get api key and paste here
 const BUYER_API_KEY = "sa_live_i7hVB1cEsDmhTyJ";
 const VENDOR_ID = "6a9ab4dda52ad6fbe0345de9";
-const BASE_URL = "https://shieldagent-backend.vercel.app/";
+const BASE_URL = "https://shieldagentbackend.vercel.app";
 
 const api = axios.create({
     baseURL: BASE_URL,

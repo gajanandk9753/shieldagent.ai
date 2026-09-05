@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const VENDOR_API_KEY = "sa_live_K5bfEn5ny-H0A4M";
 const TRANSACTION_ID = process.argv[2] || "YOUR_TRANSACTION_ID";
-const BASE_URL = "https://shieldagent-backend.vercel.app/";
+const BASE_URL = "https://shieldagentbackend.vercel.app";
 
 const api = axios.create({
     baseURL: BASE_URL,

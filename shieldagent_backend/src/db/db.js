@@ -11,7 +11,9 @@ async function connectDatabase() {
         await mongoose.connect(process.env.MONGO_URI, {
             serverSelectionTimeoutMS: 10000
         });
+
         isConnected = true;
+
         console.log("Database connected successfully");
     } catch (error) {
         isConnected = false;

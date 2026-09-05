@@ -1,7 +1,7 @@
 
 class ApiConstants {
   ApiConstants._();
-  static const String baseUrl = "https://shieldagent-backend.vercel.app/";
+  static const String baseUrl = "https://shieldagentbackend.vercel.app";
 
   static const String registerVendor = "/auth/register/vendor-agent";
   static const String loginVendor = "/auth/login/vendor-agent";

@@ -53,6 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
         (route) => false,
       );
     } else {
+      print(auth.errorMessage);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(auth.errorMessage ?? "Login failed")),
       );

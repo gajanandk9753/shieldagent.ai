@@ -1,3 +1,50 @@
 shieldagent_backend\node_modules\
 shieldagent_backend\.env\
 shieldagent_backend\.gitignore\
+agents\node_modules\
+
+# Miscellaneous 
+*.class 
+*.log 
+*.pyc 
+*.swp 
+.DS_Store 
+.atom/ 
+shieldagent_app/.build/
+shieldagent_app/.buildlog/
+.history 
+.svn/ 
+shieldagent_app/.swiftpm/ 
+shieldagent_app/migrate_working_dir/ 
+ 
+# IntelliJ related 
+*.iml 
+*.ipr 
+*.iws 
+.idea/ 
+ 
+# The .vscode folder contains launch configuration and tasks you configure in 
+# VS Code which you may wish to be included in version control, so this line 
+# is commented out by default. 
+#.vscode/ 
+ 
+# Flutter/Dart/Pub related 
+shieldagent_app/**/doc/api/ 
+shieldagent_app/**/ios/Flutter/.last_build_id 
+shieldagent_app/.dart_tool/ 
+shieldagent_app/.flutter-plugins 
+shieldagent_app/.flutter-plugins-dependencies 
+shieldagent_app/.pub-cache/ 
+shieldagent_app/.pub/ 
+shieldagent_app/build/ 
+ 
+# Symbolication related 
+shieldagent_app/app.*.symbols 
+ 
+# Obfuscation related 
+shieldagent_app/app.*.map.json 
+ 
+# Android Studio will place build artifacts here 
+shieldagent_app/android/app/debug 
+shieldagent_app/android/app/profile 
+shieldagent_app/android/app/release

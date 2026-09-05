@@ -1,5 +1,6 @@
 const axios = require("axios");
 
+// Resgiter an email on the shieldagent mobile app and then get api key and paste here
 const VENDOR_API_KEY = "sa_live_I7HMJD_eu5aG-e_";
 const TRANSACTION_ID = process.argv[2];
 const BASE_URL = "http://10.50.47.106:3000";

@@ -20,4 +20,10 @@ app.use("/vendor-agent", vendorAgentRoutes);
 // receives razorpay webhook
 app.post("/webhooks/razorpay", razorpayWebhook);
 
+app.get("/", (req,res) => {
+    return res.status(200).json({
+        message : "Health status is good. Server is running..."
+    });
+});
+
 module.exports = app;
